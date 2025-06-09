@@ -46,14 +46,14 @@ export default function TourPackages() {
       id: 6,
       name: "Premium Umrah Package",
       price: "₹1,99,000",
-      image: "/premium_ind.jpg?height=300&width=400",
+      image: "/premium.jpg?height=300&width=400",
       details: "14 days luxury package with 5-star accommodation, VIP transportation, guided tours, and comprehensive ziyarah visits to important sites in Mecca and Madinah.",
     },
     {
       id: 7,
       name: "Family Umrah Package",
       price: "₹1,49,000 per person",
-      image: "/premium.jpg?height=300&width=400",
+      image: "/family.jpg?height=300&width=400",
       details: "12 days package designed for families with special amenities, family rooms, and guided ziyarah visits to important sites in Mecca and Madinah.",
     },
   ]
