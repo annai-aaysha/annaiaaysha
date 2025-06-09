@@ -144,7 +144,7 @@ export default function Header() {
               <span className="xs:hidden">Chat</span>
             </a>
             <a
-              href="https://maps.google.com/?q=Chennai,Tamil+Nadu,India"
+              href="https://maps.google.com/?q=ANNAI+AAYSHA+HAJ+%26+UMRAH"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center text-sm hover:underline"
@@ -361,7 +361,7 @@ export default function Header() {
                     </div>
                   </a>
                   <a
-                    href="https://maps.google.com/?q=Chennai,Tamil+Nadu,India"
+                    href="https://maps.google.com/?q=ANNAI+AAYSHA+HAJ+%26+UMRAH"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center hover:text-[#fbb82b] transition-colors p-2 rounded-lg hover:bg-white/5"
