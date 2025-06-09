@@ -119,13 +119,13 @@ export default function Header() {
       <div className="fixed top-0 left-0 right-0 z-50 py-2 bg-[#fbb82b] text-[#222f37] md:hidden shadow-sm">
         <div className="container flex items-center justify-between px-4">
           <div className="flex items-center space-x-3">
-            <a href="tel:+919876543210" className="flex items-center text-sm hover:underline">
+            <a href="tel:+918608517944" className="flex items-center text-sm hover:underline">
               <Phone className="w-3.5 h-3.5 mr-1" />
-              <span className="hidden xs:inline">+91 98765 43210</span>
+              <span className="hidden xs:inline">+91 86085 17944</span>
               <span className="xs:hidden">Call</span>
             </a>
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/918608517944"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center text-sm hover:underline"
@@ -294,14 +294,14 @@ export default function Header() {
               {/* Quick Contact Actions */}
               <div className="grid grid-cols-2 gap-3 mt-6">
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+918608517944"
                   className="flex items-center justify-center p-3 bg-[#fbb82b] text-[#222f37] rounded-lg font-medium hover:bg-[#fbb82b]/90 transition-colors"
                 >
                   <Phone className="w-5 h-5 mr-2" />
                   Call Now
                 </a>
                 <a
-                  href="https://wa.me/919876543210"
+                  href="https://wa.me/918608517944"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center p-3 bg-green-600 text-white rounded-lg font-medium hover:bg-green-700 transition-colors"
