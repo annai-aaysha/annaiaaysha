@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "google-site-verification=jzutF3riBHPMJ3ouQtN18VZoUsa6G5yPelC0aZF6BTU",
+    google: "en_z_q4giFdySXGXZQ8wKwWUwyScUo63-62RNAkSwK4",
   },
 }
 
@@ -91,6 +91,7 @@ export default function RootLayout({
         <link rel="alternate" href="https://annaiaaysha.vercel.app" hrefLang="en-IN" />
         <link rel="alternate" href="https://annaiaaysha.vercel.app/ta" hrefLang="ta-IN" />
         <link rel="alternate" href="https://annaiaaysha.vercel.app/ar" hrefLang="ar-SA" />
+        <meta name="google-site-verification" content="en_z_q4giFdySXGXZQ8wKwWUwyScUo63-62RNAkSwK4" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} disableTransitionOnChange={false}>
