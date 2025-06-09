@@ -7,7 +7,7 @@ export default function StickyContactButtons() {
     <div className="fixed bottom-6 left-6 z-40 flex flex-col space-y-3 sm:flex-row sm:space-y-0 sm:space-x-3">
       {/* Call Button */}
       <a
-        href="tel:+919876543210"
+        href="tel:+918608517944"
         className="flex items-center justify-center bg-[#222f37] text-white px-4 py-2.5 rounded-lg shadow-lg hover:bg-[#222f37]/90 transition-all duration-300"
       >
         <Phone className="w-5 h-5 mr-2" />
@@ -16,7 +16,7 @@ export default function StickyContactButtons() {
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/919876543210"
+        href="https://wa.me/918608517944"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center bg-green-600 text-white px-4 py-2.5 rounded-lg shadow-lg hover:bg-green-700 transition-all duration-300"
