@@ -4,12 +4,12 @@ import Header from "@/components/header"
 import StickyContactButtons from "@/components/sticky-contact-buttons"
 import StickyEnquiryButton from "@/components/sticky-enquiry-button"
 import { ThemeProvider } from "@/components/theme-provider"
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import type React from "react"
 import { Toaster } from "sonner"
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -29,14 +29,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://www.annaiaaysha.com"),
+  metadataBase: new URL("https://annaiaaysha.vercel.app"),
   alternates: {
-    canonical: "https://www.annaiaaysha.com",
+    canonical: "https://annaiaaysha.vercel.app",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.annaiaaysha.com",
+    url: "https://annaiaaysha.vercel.app",
     siteName: "Annai Aaysha Haj & Umrah Services",
     title: "Annai Aaysha Haj & Umrah Services",
     description: "Your trusted partner for Haj and Umrah services. We provide comprehensive packages, expert guidance, and personalized support for your spiritual journey.",
@@ -88,9 +88,9 @@ export default function RootLayout({
         <meta name="geo.placename" content="Chennai" />
         <meta name="geo.position" content="13.0827;80.2707" />
         <meta name="ICBM" content="13.0827, 80.2707" />
-        <link rel="alternate" href="https://annai-aaysha.com" hrefLang="en-IN" />
-        <link rel="alternate" href="https://annai-aaysha.com/ta" hrefLang="ta-IN" />
-        <link rel="alternate" href="https://annai-aaysha.com/ar" hrefLang="ar-SA" />
+        <link rel="alternate" href="https://annaiaaysha.vercel.app" hrefLang="en-IN" />
+        <link rel="alternate" href="https://annaiaaysha.vercel.app/ta" hrefLang="ta-IN" />
+        <link rel="alternate" href="https://annaiaaysha.vercel.app/ar" hrefLang="ar-SA" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} disableTransitionOnChange={false}>
