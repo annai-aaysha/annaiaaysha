@@ -10,6 +10,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import type React from "react"
 import { Toaster } from "sonner"
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -114,6 +115,7 @@ export default function RootLayout({
         <meta name="google-site-verification" content="en_z_q4giFdySXGXZQ8wKwWUwyScUo63-62RNAkSwK4" />
       </head>
       <body className={inter.className}>
+        <GoogleAnalytics/>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} disableTransitionOnChange={false}>
           <Header />
           <main className="min-h-screen">{children}</main>
