@@ -1,4 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
+# Host
+Host: https://annaiaaysha.vercel.app
+
+# Sitemaps
 Sitemap: https://annaiaaysha.vercel.app/sitemap.xml
